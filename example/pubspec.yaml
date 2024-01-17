@@ -32,8 +32,6 @@ dependencies:
     sdk: flutter
   sm_animations:
     path: ../
-  animations:
-    path: /Users/yang/Desktop/packages/packages/animations
 
 
   # The following adds the Cupertino Icons font to your application.
