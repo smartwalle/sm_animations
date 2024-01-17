@@ -78,7 +78,7 @@ class _KIPageTransitionState extends State<KIPageTransition> with TickerProvider
       assert(hasOldChild && hasNewChild);
       assert(Widget.canUpdate(widget.child!, _current!.child));
       // Child has been updated. Make sure we update the child widget and
-      // transition in _currentEntry even though we're not going to start a new
+      // transition in _current even though we're not going to start a new
       // animation, but keep the key from the old transition so that we
       // update the transition instead of replacing it.
       _current!.child = widget.child!;
